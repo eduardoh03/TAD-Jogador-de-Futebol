@@ -7,12 +7,8 @@ typedef struct{
 
 jogador iniciarTabela(int codigo, int jogos, int gols, int assistencias);
 
-jogador numCodigo(jogador tabela, int codigo);
-
-jogador numGols(jogador tabela,int jogos);
-
-jogador numGols(jogador tabela,int gols);
-
-jogador numGols(jogador tabela,int assistencias);
-
 void imprimir(jogador tabela);
+
+void Atribui (jogador*, int codigo, int jogos, int gols, int assistencias);
+
+void ehBom (jogador*, int jogos, int gols, int assistencias);
