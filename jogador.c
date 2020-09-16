@@ -12,7 +12,6 @@ jogador iniciarTabela(int codigo, int jogos, int gols, int assistencias){
 
 void imprimir(jogador tabela){
   printf("Olá, jogador codigo %d, em  %d jogos voce foi responsavel por %d gols e  %d assistencias\n\n" ,tabela.codigo,tabela.jogos, tabela.gols, tabela.assistencias);
-  printg("VSF FABIO");
 }
 void Atribui(jogador* pjogador, int codigo, int jogos, int gols, int assistencias) {
     pjogador->codigo = codigo;
